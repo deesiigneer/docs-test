@@ -35,10 +35,16 @@ exclude_patterns = []
 templates_path = ['_templates']
 html_static_path = ['_static']
 html_theme = 'pydata_sphinx_theme'
-html_logo = "https://www.python.org/static/community_logos/python-logo-generic.svg"
+html_logo = "https://www.python.org/static/community_logos/python-logo-master-v3-TM.png"
 html_theme_options = {
-  "external_links": [
-      {"name": "GitHub", "url": "https://github.com/deesiigneer/pyspapi"},
-      {"name": "PyPi", "url": "https://pypi.org/project/pyspapi/"}
+  "icon_links": [
+      {"name": "GitHub",
+       "url": "https://github.com/deesiigneer/pyspapi",
+       "icon": "fa-brands fa-github",
+       "type": "fontawesome"},
+      {"name": "PyPi",
+       "url": "https://pypi.org/project/pyspapi/",
+       "icon": "fa-brands fa-python",
+       "type": "fontawesome"}
   ]
 }

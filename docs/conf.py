@@ -44,9 +44,26 @@ html_theme_options = {
             "name": "Changelog",
         }
     ],
-    "github_url": "https://github.com/deesiigneer/pyspapi",
-    "discord_url": "https://discord.gg/VbyHaKRAaN",
-    "pypi_url": "https://pypi.org/project/pyspapi/",
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/deesiigneer/pyspapi",
+            "icon": "fab fa-brands fa-github",
+            "type": "fontawesome"
+        },
+        {
+            "name": "Discord",
+            "url": "https://discord.gg/VbyHaKRAaN",
+            "icon": "fab fa-brands fa-discord",
+            "type": "fontawesome"
+        },
+        {
+            "name": "PyPi",
+            "url": "https://pypi.org/project/pyspapi/",
+            "icon": "fab fa-brands fa-python",
+            "type": "fontawesome"
+        }
+    ],
     "header_links_before_dropdown": 4,
     "show_toc_level": 1,
     "navbar_start": ["navbar-logo", "version-switcher"],

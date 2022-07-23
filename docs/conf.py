@@ -34,7 +34,6 @@ locale_dirs = ["locale/"]
 exclude_patterns = []
 html_static_path = ["_static"]
 html_theme = "pydata_sphinx_theme"
-html_css_files = ["custom.css"]
 html_logo = "./images/logo.png"
 html_favicon = "./images/logo.ico"
 html_theme_options = {
@@ -73,4 +72,5 @@ html_theme_options = {
     },
     "navigation_with_keys": True,
 }
+html_css_files = ["custom.css"]
 

@@ -10,3 +10,23 @@ Is this your first time using the library? This is the place to get started!
 
 - **First steps:** :doc:`quickstart'
 - **Examples:** Many examples are available in the `examples directory <https://github.com/deesiigneer/pyspapi/tree/main/examples/>`_.
+
+Getting help
+------------
+
+If you're having trouble with something, these resources might help.
+
+- Ask questions and hang out with us in `Discord <https://discord.gg/VbyHaKRAaN>`_ server.
+- If you're looking for something specific, try the :ref:`index <genindex>` or :ref:`searching <search>`.
+- Report bugs in the `issue tracker <https://github.com/deesiigneer/pyspapi/issues>`_.
+- Ask in `GitHub discussions page <https://github.com/deesiigneer/pyspapi/discussions>`_.
+
+Manuals
+-------
+
+These pages go into great detail about everything the API can do.
+
+.. toctree::
+  :maxdepth: 1
+
+  api

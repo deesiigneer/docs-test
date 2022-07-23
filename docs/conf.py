@@ -35,6 +35,7 @@ exclude_patterns = []
 templates_path = ["_templates"]
 html_static_path = ["_static"]
 html_theme = "pydata_sphinx_theme"
+html_title = f"pyspapi {version} doc's"
 html_logo = "./images/logo.png"
 html_favicon = "./images/logo.ico"
 html_theme_options = {

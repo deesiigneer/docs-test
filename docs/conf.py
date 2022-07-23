@@ -54,11 +54,6 @@ html_theme_options = {
         "json_url": "https://pyspapi-docs-test.readthedocs.io/en/latest/_static/switcher.json",
         "version_match": "latest"
     },
-    "navigation_with_keys": False ,
-    "navbar_end": [
-        "navbar-icon-links.html",
-        "search-field.html"
-    ],
-    "search_bar_text": "Your text here..."
+    "navigation_with_keys": True,
 }
 

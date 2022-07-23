@@ -17,7 +17,7 @@ Getting help
 If you're having trouble with something, these resources might help.
 
 - Ask questions and hang out with us in `Discord <https://discord.gg/VbyHaKRAaN>`_ server.
-- If you're looking for something specific, try the :ref:`index <genindex>` or :ref:`searching <search>`.
+- If you're looking for something specific, try the :ref:`searching <search>`.
 - Report bugs in the `issue tracker <https://github.com/deesiigneer/pyspapi/issues>`_.
 - Ask in `GitHub discussions page <https://github.com/deesiigneer/pyspapi/discussions>`_.
 

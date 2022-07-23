@@ -1,5 +1,6 @@
 /* Background of stable should be green */
 #version_switcher a[data-version-name*="stable"] {
+  background-color: green;
   position: relative;
 }
 

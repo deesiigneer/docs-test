@@ -60,7 +60,9 @@ html_theme_options = {
     "navbar_start": ["navbar-logo", "version-switcher"],
     "switcher": {
         "json_url": "https://pyspapi-docs-test.readthedocs.io/en/latest/_static/switcher.json",
+        "version_match": "latest"
     },
+    "navigation_with_keys": False ,
     "navbar_end": [
         "navbar-icon-links.html",
         "search-field.html"

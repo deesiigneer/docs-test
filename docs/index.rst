@@ -1,20 +1,12 @@
-.. pyspapi-docs-test documentation master file, created by
-   sphinx-quickstart on Mon Jul 18 23:29:37 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to pyspapi
+===================
 
-Welcome to pyspapi-docs-test's documentation!
-=============================================
+API wrapper for SP servers written in Python.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+Getting started
+---------------
 
+Is this your first time using the library? This is the place to get started!
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+- **First steps:** :doc:`quickstart'
+- **Examples:** Many examples are available in the `examples directory <https://github.com/deesiigneer/pyspapi/tree/main/examples/>`_.

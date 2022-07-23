@@ -17,7 +17,7 @@ Let's make a bot that responds to a slash command and walk you through it.
 
 It looks something like this:
 
-.. code-block::
+.. code::
 
   import pyspapi
 

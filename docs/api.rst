@@ -23,5 +23,5 @@ There are two main ways to query version information about the library.
 ``asyncio``
 -----------
 
-.. automodule:: asyncio
-    :members: run, gather, AbstractEventLoop
+.. automodule:: pyspapi
+    :members: SPAPI, MojangAPI

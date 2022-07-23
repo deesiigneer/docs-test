@@ -1,12 +1,14 @@
+.. py:currentmodule:: pyspapi
+
 API Reference
 ===============
 
 The following section outlines the API of pyspapi.
 
-Version Related Info
+Version  Info
 ---------------------
 
-There are two main ways to query version information about the library.
+There are two main ways to query version information.
 
 .. data:: version_info
 
@@ -17,11 +19,33 @@ There are two main ways to query version information about the library.
 
 .. data:: __version__
 
-    A string representation of the version. e.g. ``'1.0.0rc1'``. This is based
-    off of :pep:`440`.
+    A string representation of the version.
 
-``asyncio``
+``pyspapi``
 -----------
 
-.. automodule:: pyspapi
-    :members: SPAPI, MojangAPI
+SPAPI
+~~~~~
+.. autoclass:: SPAPI
+    :members:
+
+    .. automethod:: SPAPI.event()
+        :decorator:
+
+    .. automethod:: SPAPI.check_user_access
+        :decorator:
+
+    .. automethod:: SPAPI.get_user
+        :decorator:
+
+    .. automethod:: SPAPI.get_users
+        :decorator:
+
+    .. automethod:: SPAPI.payment
+        :decorator:
+
+    .. automethod:: SPAPI.transaction
+        :decorator:
+
+    .. automethod:: SPAPI.webhook_verify
+        :decorator:

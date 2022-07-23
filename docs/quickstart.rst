@@ -7,13 +7,12 @@
 Quickstart
 ==========
 
-This page gives a brief introduction to the library. It assumes you have the library installed,
-if you don't check the :ref:`installing` portion.
+This page gives a brief introduction to the library.
 
-A Minimal Bot
+Checking balance
 -------------
 
-Let's make a bot that responds to a slash command and walk you through it.
+Let's output the amount of money remaining in the card account to the console.
 
 It looks something like this:
 

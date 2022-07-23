@@ -24,7 +24,7 @@ There are two main ways to query version information.
 ``pyspapi``
 -----------
 
-SPAPI
+``SPAPI``
 ~~~~~
 .. autoclass:: SPAPI
     :members:
@@ -48,4 +48,27 @@ SPAPI
         :decorator:
 
     .. automethod:: SPAPI.webhook_verify
+        :decorator:
+
+MojangAPI
+~~~~~
+.. autoclass:: MojangAPI
+    :members:
+
+    .. automethod:: SPAPI.event()
+        :decorator:
+
+    .. automethod:: SPAPI.get_name_history
+        :decorator:
+
+    .. automethod:: SPAPI.get_profile
+        :decorator:
+
+    .. automethod:: SPAPI.get_username
+        :decorator:
+
+    .. automethod:: SPAPI.get_uuid
+        :decorator:
+
+    .. automethod:: SPAPI.get_uuids
         :decorator:

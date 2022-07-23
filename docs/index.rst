@@ -1,3 +1,5 @@
+:theme_html_remove_secondary_sidebar:
+
 Welcome to pyspapi
 ===================
 
@@ -30,3 +32,4 @@ These pages go into great detail about everything the API can do.
   :maxdepth: 1
 
   api
+  examples

@@ -38,6 +38,9 @@ html_theme = "pydata_sphinx_theme"
 html_title = f"pyspapi {version} doc's"
 html_logo = "./images/logo.png"
 html_favicon = "./images/logo.ico"
+html_sidebars = {
+    "**": ["search-field.html", "sidebar-nav-bs.html", "sidebar-ethical-ads.html"]
+}
 html_theme_options = {
     "icon_links": [
         {
@@ -58,5 +61,10 @@ html_theme_options = {
             "icon": "fab fa-brands fa-python",
             "type": "fontawesome"
         }
-    ]
+    ],
+    "navbar_end": [
+        "navbar-icon-links.html",
+        "search-field.html"
+    ],
+    "search_bar_text": "Your text here..."
 }

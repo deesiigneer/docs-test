@@ -32,15 +32,10 @@ intersphinx_disabled_domains = ['std']
 language = None
 locale_dirs = ["locale/"]
 exclude_patterns = []
-templates_path = ["_templates"]
 html_static_path = ["_static"]
 html_theme = "pydata_sphinx_theme"
-html_title = f"pyspapi {version} doc's"
 html_logo = "./images/logo.png"
 html_favicon = "./images/logo.ico"
-html_sidebars = {
-    "**": ["search-field.html", "sidebar-nav-bs.html", "sidebar-ethical-ads.html"]
-}
 html_theme_options = {
     "icon_links": [
         {
@@ -62,9 +57,14 @@ html_theme_options = {
             "type": "fontawesome"
         }
     ],
+    "navbar_start": ["navbar-logo", "version-switcher"],
+    "switcher": {
+        "json_url": "https://pyspapi-docs-test.readthedocs.io/en/latest/_static/switcher.json",
+    },
     "navbar_end": [
         "navbar-icon-links.html",
         "search-field.html"
     ],
     "search_bar_text": "Your text here..."
 }
+

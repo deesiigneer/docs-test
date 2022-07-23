@@ -10,7 +10,7 @@ Getting started
 
 Is this your first time using the library? This is the place to get started!
 
-- **First steps:** :doc:`quickstart`
+- **First steps:** :ref:`Quickstart <quickstart>`
 - **Examples:** Many examples are available in the `examples directory <https://github.com/deesiigneer/pyspapi/tree/main/examples/>`_.
 
 Getting help

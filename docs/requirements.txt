@@ -1,1 +1,1 @@
-yummy-sphinx-theme
+pydata_sphinx_theme

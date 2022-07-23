@@ -29,8 +29,16 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 intersphinx_disabled_domains = ['std']
-language = 'ru'
+language = None
+locale_dirs = ["locale/"]
 exclude_patterns = []
 templates_path = ['_templates']
-html_theme = 'yummy_sphinx_theme'
 html_static_path = ['_static']
+html_theme = 'pydata_sphinx_theme'
+html_logo = "https://www.python.org/static/community_logos/python-logo-generic.svg"
+html_theme_options = {
+  "external_links": [
+      {"name": "GitHub", "url": "https://github.com/deesiigneer/pyspapi"},
+      {"name": "PyPi", "url": "https://pypi.org/project/pyspapi/"}
+  ]
+}

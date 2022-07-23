@@ -57,12 +57,5 @@ html_theme_options = {
             "icon": "fab fa-brands fa-python",
             "type": "fontawesome"
         }
-  ],
-    "use_edit_page_button": True
-}
-html_context = {
-    "github_user": "deesiigneer",
-    "github_repo": "pyspapi",
-    "github_version": "main",
-    "doc_path": "https://github.com/deesiigneer/pyspapi/tree/main/docs",
+    ]
 }

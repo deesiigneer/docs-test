@@ -6,10 +6,9 @@
 .. toctree::
    :hidden:
 
-   AUTHORIZATION
-   PAYMENTS
-   CARD
-   USERS
+   api
+   changes
+   libs
 
 Вступление
 ----------

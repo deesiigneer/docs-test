@@ -6,7 +6,6 @@
 .. toctree::
    :hidden:
 
-    https://spworlds.ru/
     api
     libraries
     changes

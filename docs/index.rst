@@ -7,8 +7,8 @@
    :hidden:
 
    api
+   libraries
    changes
-   libs
 
 Вступление
 ----------

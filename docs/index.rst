@@ -6,14 +6,15 @@
 .. toctree::
    :hidden:
 
-    SPWorlds <https://spworlds.ru/>
-
-.. toctree::
-   :hidden:
-
     api
     libraries
     changes
+
+.. toctree::
+   :caption: Сайт СП
+   :hidden:
+
+    SPWorlds <https://spworlds.ru/>
 
 Вступление
 ----------

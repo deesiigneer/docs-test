@@ -42,4 +42,6 @@ html_theme_options = {
     ],
     "announcement": "API может в любой момент измениться и это ваша задача следить за его изменениями, и подстраивать под них свои приложения."
 }
+sphinx_tabs_disable_css_loading = True
+
 

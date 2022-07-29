@@ -15,9 +15,11 @@ SPWorlds API
 
 Все запросы к SPWorlds API должны обслуживаться через HTTPS и должны быть предоставлены в слудующей форме:
 
-.. code::
-
-  https://spworlds.ru/api/public/card
+.. topic:: POST
+  
+  .. code-block:: HTTP 
+  
+    https://spworlds.ru/api/public/card
 
 
 Поддерживаются **GET** и **POST** методы. Направляя любые запросы к API, добавляйте header ``Authorization`` имеющий
@@ -36,9 +38,12 @@ SPWorlds API
 Чтобы принять оплату АРами, надо сначала создать запрос на оплату. Он
 делается таким **POST** запросом
 
-.. code::
 
-   https://spworlds.ru/api/public/payment
+.. topic:: POST
+  
+  .. code-block:: HTTP 
+  
+     https://spworlds.ru/api/public/payment
 
 .. table:: В теле запроса должен быть JSON-объект, содержащий:
 
@@ -78,7 +83,9 @@ SPWorlds API
 Запрос баланса
 --------------
 
-.. code::
+.. topic:: GET
+  
+  .. code-block:: HTTP 
 
    https://spworlds.ru/api/public/card
 
@@ -94,9 +101,11 @@ SPWorlds API
 
 Чтобы совершить перевод надо сделать подобный запрос
 
-.. code::
-
-   https://spworlds.ru/api/public/transactions
+.. topic:: POST
+  
+  .. code-block:: HTTP 
+  
+     https://spworlds.ru/api/public/transactions
 
 .. table:: Тело - JSON объект, содержащий:
 
@@ -111,9 +120,11 @@ SPWorlds API
 
 Чтобы получить ник надо сделать подобный запрос
 
-.. code::
-
-   https://spworlds.ru/api/public/users/DISCORDID
+.. topic:: POST
+  
+  .. code-block:: HTTP 
+  
+     https://spworlds.ru/api/public/users/DISCORDID
    
 .. hint::
 

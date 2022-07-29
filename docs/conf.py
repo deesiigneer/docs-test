@@ -17,7 +17,7 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
     "sphinx_copybutton",
-    "sphinx_tabs.tabs",
+    "sphinx-inline-tabs",
 ]
 
 intersphinx_mapping = {

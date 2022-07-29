@@ -9,21 +9,19 @@
 
    Создай issue чтобы мы добавили сюда твою библиотеку
 
-.. tabs::
+.. tab:: Node.js
 
-   .. tab:: Node.js
-   
-      -  `spworlds <https://www.npmjs.com/package/spworlds>`__
+    -  `spworlds <https://www.npmjs.com/package/spworlds>`__
 
-   .. tab:: Deno
-   
-      -  `Deno <https://crux.land/AdZBL>`__
+.. tab:: Deno
 
-   .. tab:: Python
-   
-      -  `pyspapi <https://pypi.org/project/pyspapi/>`__
-      -  `Py-SPW <https://pypi.org/project/Py-SPW/>`__
+    -  `Deno <https://crux.land/AdZBL>`__
 
-   .. tab:: Java
-   
-      -  `JSP <https://github.com/ValeraShimchuck/JSP>`__
+.. tab:: Python
+
+    -  `pyspapi <https://pypi.org/project/pyspapi/>`__
+    -  `Py-SPW <https://pypi.org/project/Py-SPW/>`__
+
+.. tab:: Java
+
+    -  `JSP <https://github.com/ValeraShimchuck/JSP>`__

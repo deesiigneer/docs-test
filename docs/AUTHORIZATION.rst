@@ -17,12 +17,12 @@
 
 .. note::
 
-  https://spworlds.ru/api/public/card
+  ``https://spworlds.ru/api/public/card``
 
 
-Поддерживаются **GET** и **POST** методы. Направляя любые запросы к API, добавляйте хедер ``Authorization`` имеющий
+Поддерживаются **GET** и **POST** методы. Направляя любые запросы к API, добавляйте header ``Authorization`` имеющий
 форму ``Bearer key``
 
 .. hint::
 
-  Где `key` - base64 закодированная строка `ID:TOKEN`, где `ID` - ID вашей карты, `TOKEN` - token от нее.
+  Где ``key`` - base64 закодированная строка ``ID:TOKEN``, где ``ID`` - ID вашей карты, ``TOKEN`` - token от нее.

@@ -15,7 +15,7 @@
 
 Все запросы к SPWorlds API должны обслуживаться через HTTPS и должны быть предоставлены в слудующей форме:
 
-.. code:: {note}
+.. note::
 
   https://spworlds.ru/api/public/card
 
@@ -23,6 +23,6 @@
 Поддерживаются **GET** и **POST** методы. Направляя любые запросы к API, добавляйте хедер ``Authorization`` имеющий
 форму ``Bearer key``
 
-.. code:: {hint} 
+.. hint::
 
   Где `key` - base64 закодированная строка `ID:TOKEN`, где `ID` - ID вашей карты, `TOKEN` - token от нее.

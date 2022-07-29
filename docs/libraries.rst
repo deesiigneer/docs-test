@@ -13,11 +13,11 @@
 
    .. tab:: Node.js
    
-   -  `spworlds <https://www.npmjs.com/package/spworlds>`__
+      -  `spworlds <https://www.npmjs.com/package/spworlds>`__
 
    .. tab:: Deno
    
-   -  `Deno <https://crux.land/AdZBL>`__
+      -  `Deno <https://crux.land/AdZBL>`__
 
    .. tab:: Python
    
@@ -26,4 +26,4 @@
 
    .. tab:: Java
    
-   -  `JSP <https://github.com/ValeraShimchuck/JSP>`__
+      -  `JSP <https://github.com/ValeraShimchuck/JSP>`__

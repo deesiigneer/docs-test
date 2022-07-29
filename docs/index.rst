@@ -7,9 +7,9 @@
    :hidden:
 
     SPWorlds <https://spworlds.ru/>
-    :ref:`api`
-    :ref:`libraries`
-    :ref:`changes`
+    SPWorlds API <api.html>
+    Библиотеки для работы с API <libraries.html>
+    Последние изменения <changes.html>
 
 Вступление
 ----------

@@ -6,7 +6,7 @@
 .. toctree::
    :hidden:
 
-    `SPWorlds <https://spworlds.ru/>`_
+    SPWorlds <https://spworlds.ru/>
     api
     libraries
     changes

@@ -6,10 +6,10 @@
 .. toctree::
    :hidden:
 
-    SPWorlds <https://spworlds.ru/>
-    SPWorlds API <api.html>
-    Библиотеки для работы с API <libraries.html>
-    Последние изменения <changes.html>
+    https://spworlds.ru/
+    api
+    libraries
+    changes
 
 Вступление
 ----------

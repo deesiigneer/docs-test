@@ -39,6 +39,7 @@ html_theme_options = {
             "icon": "fab fa-brands fa-github",
             "type": "fontawesome"
         }
-    ]
+    ],
+    "show_toc_level": 0
 }
 

@@ -4,10 +4,13 @@
 ==========================
 
 .. toctree::
-   :maxdepth: 1
    :hidden:
    
    SPWorlds <https://spworlds.ru/>
+
+.. toctree::
+   :hidden:
+   
    api
    libraries
    changes
@@ -34,6 +37,6 @@ API может в любой момент измениться и это ваш�
 Читать далее...
 ---------------
 
-- :ref:`API <api>`
+- :ref:`api`
 - :ref:`libraries`
 - :ref:`changes`

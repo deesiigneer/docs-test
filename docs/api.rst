@@ -16,7 +16,7 @@ SPWorlds API
 
 Все запросы к SPWorlds API должны обслуживаться через HTTPS и должны быть предоставлены в слудующей форме:
 
-.. topic:: POST
+.. topic:: GET
   
   .. code-block:: HTTP 
   
